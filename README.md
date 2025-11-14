@@ -57,16 +57,25 @@ context/
 
 ## Para rodar em seu ambiente
 
-1. Instalar em seu ambiente
+1- Instalar em seu ambiente
 
    ```bash
    npm install
    ```
 
-2. Iniciar a aplicação
-
+2- Iniciar a aplicação
+   
    ```bash
    npx expo start
    ```
+
+  2.1- Web:
+  CRTL + Clique no link localhost que aparecerá no terminal.
+  
+  2.2- Mobile:
+  Baixe o aplicativo Expo Go em seu celular; 
+  Com app aberto, toque em Scan QR Code e aponte para o QR que aparece no terminal.
+
+
 
 
