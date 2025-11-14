@@ -29,16 +29,31 @@ Aplicação desenvolvida para gerenciar tratamentos de uma clínica de estética
 ## Estrutura do Projeto
 
 app/
-  index.tsx         → Home
-  tratamentos.tsx   → Cadastro e listagem de tratamentos
-  contato.tsx       → Formulário de contato
-  _layout.tsx       → Navegação
+
+   ├── index.tsx → Home
+   
+   ├── tratamentos.tsx → Cadastro e listagem de tratamentos
+   
+   ├── contato.tsx → Formulário de contato
+   
+   └── _layout.tsx → Navegação
+   
+
 assets/
-  tratamentos.json   → Dados locais carregados com fetch/import
+
+   └── tratamentos.json → Dados locais carregados com fetch/import
+   
+
 components/
-  Navbar.tsx         → Componente de navegação
+
+   └── Navbar.tsx → Componente de navegação
+   
+
 context/
-  TratamentosContext.tsx → Estado global com useReducer
+
+   └── TratamentosContext.tsx → Estado global com useReducer
+
+   
 
 ## Para rodar em seu ambiente
 
