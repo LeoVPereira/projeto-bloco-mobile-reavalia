@@ -63,7 +63,7 @@ export const TratamentosProvider: React.FC<{ children: React.ReactNode }> = ({
     carregando: true,
   });
 
-  // Carregar dados iniciais do JSON (em assets)
+  // Carregar dados iniciais do JSON (em assets) - "Dados assíncronos"
   useEffect(() => {
   const carregarDados = async () => {
     dispatch({ type: "LOADING", payload: true });
@@ -82,7 +82,7 @@ export const TratamentosProvider: React.FC<{ children: React.ReactNode }> = ({
   const [novoAdicionado, setNovoAdicionado] = useState(false);
   useLayoutEffect(() => {
     if (novoAdicionado) {
-      console.log("✨ Novo tratamento adicionado!");
+      console.log("Novo tratamento adicionado!");
       const timer = setTimeout(() => setNovoAdicionado(false), 1000);
       return () => clearTimeout(timer);
     }

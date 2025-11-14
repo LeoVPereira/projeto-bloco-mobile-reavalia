@@ -136,7 +136,7 @@ export default function TratamentosScreen() {
                   >
                     <Heading size="sm">{item.nome}</Heading>
                     <Text color="gray.600">{item.descricao}</Text>
-                    <Text mt={1}>💰 R$ {item.preco}</Text>
+                    <Text mt={1}>R$ {item.preco}</Text>
                     <Text>Duração: {item.duracao}</Text>
                     <Button
                       colorScheme="red"
